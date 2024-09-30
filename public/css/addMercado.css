@@ -1,0 +1,12 @@
+.container{
+    flex: 'row';
+    justify-content: center;
+}
+.inputText{
+    align-items: center;
+    justify-content: center;
+    border-width: 1;
+    border-color: brown;
+
+
+}
