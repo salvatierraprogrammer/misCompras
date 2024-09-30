@@ -5,8 +5,8 @@ import { app } from '../Firebase/Firebase_auth';
 import AgregarCarrito from './AgregarCarrito';
 import ModalPdf from './ModalPdf';
 import Cargando from './Cargando';
-import '../../public/css/DetalleSupermercado.css';
 
+import './Css/DetalleSupermercado.css';
 function DetalleSupermercado() {
   const { id } = useParams(); // Obtener el ID de la URL
   const [compra, setCompra] = useState({ productos: [], total: 0 });

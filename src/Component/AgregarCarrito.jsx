@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import '../../public/css/AgregarCarrito.css';
 
+import './Css/AgregarCarrito.css';
 function AgregarCarrito({ onAddProduct }) {
     const [nombreProduct, setNombreProduct] = useState('');
     const [precioProduct, setPrecioProduct] = useState('');

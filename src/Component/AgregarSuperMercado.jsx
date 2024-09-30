@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import '../../public/css/AgregarSuperMercado.css'; // Asegúrate de agregar los estilos adecuados
-
+import './Css/AgregarSuperMercado.css';
 function AgregarSuperMercado({ onAddSupermercado }) {
     const [nombreSupermercado, setNombreSupermercado] = useState('');
 
