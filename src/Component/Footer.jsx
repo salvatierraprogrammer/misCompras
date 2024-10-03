@@ -1,35 +1,25 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
-import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'; 
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'; 
 
 const Footer = () => {
   return (
     <footer style={estilos.footer}>
       <div style={estilos.container}>
-        <div style={estilos.links}>
-          <h4 style={estilos.titulo}>Enlaces útiles</h4>
-          <ul style={estilos.listaEnlaces}>
-            <li><a href="/terminos" style={estilos.enlace}>Términos de Servicio</a></li>
-            <li><a href="/privacidad" style={estilos.enlace}>Política de Privacidad</a></li>
-            <li><a href="/contacto" style={estilos.enlace}>Contacto</a></li>
-          </ul>
-        </div>
+        
         <div style={estilos.redesSociales}>
-          <h4 style={estilos.titulo}>Síguenos</h4>
+          <h4 style={estilos.titulo}>Contacto</h4>
           <div style={estilos.iconos}>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" style={estilos.icono} aria-label="Facebook">
-              <FontAwesomeIcon icon={faFacebook} />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" style={estilos.icono} aria-label="Twitter">
-              <FontAwesomeIcon icon={faTwitter} />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" style={estilos.icono} aria-label="Instagram">
-              <FontAwesomeIcon icon={faInstagram} />
+          
+    
+            <a href="https://linkedin.com/in/dos354ab4/" target="_blank" rel="noopener noreferrer" style={estilos.icono} aria-label="LinkedIn">
+             <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>
+        
         </div>
       </div>
-      <p style={estilos.copyright}>© {new Date().getFullYear()} Tu Compañía. Todos los derechos reservados.</p>
+      <p style={estilos.copyright}>© {new Date().getFullYear()} Calculo de compras. Todos los derechos reservados.</p>
     </footer>
   );
 };

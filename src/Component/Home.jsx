@@ -3,6 +3,7 @@ import { auth } from '../Firebase/Firebase_auth'; // Adjust the import path if n
 import ListMisCompras from './ListMisCompras';
 import Cargando from './Cargando';
 import fondo from '../assets/fondo.png';
+import primera from '../assets/primera.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import FontAwesomeIcon
 import { faAndroid } from '@fortawesome/free-brands-svg-icons'; // Import the Android icon
 
@@ -41,11 +42,12 @@ function Home() {
         <div style={estilos.noDatosContainer}>
           <div style={estilos.contenedor}>
             <h1 style={estilos.noDatosTexto}>¡Bienvenido a tu lista de compras!</h1>
+            
             <p style={estilos.noDatosTexto}>
               Agrega tu primer supermercado.
             </p>
+            <img src={primera} alt="No data available" style={estilos.noDataImage} />
           </div>
-          <img src={fondo} alt="No data available" style={estilos.noDataImage} />
           <p style={estilos.noDatosTexto}>
             <FontAwesomeIcon icon={faAndroid} style={{ marginRight: '5px' }} />
             Disponible en Android. 
@@ -58,6 +60,8 @@ function Home() {
               Descarga la app.
             </a>
           </p>
+          <img src={fondo} alt="No data available" style={estilos.noDataImage} />
+        
         </div>
       )}
     </div>
