@@ -1,5 +1,13 @@
 # React + Vite
 
+<div align="center">
+<a href="https://svgl.app">
+<img src="https://firebasestorage.googleapis.com/v0/b/donacionescomunidad-4ff32.appspot.com/o/Captura%20de%20pantalla%202024-10-01%20214903.png?alt=media&token=75efd8ad-842c-4e55-833b-491ab806c2e7">
+</a>
+<p></p>
+</div>
+
+
 ## 🚀 Calculo de compras
 
 > [!IMPORTANT]
